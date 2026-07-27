@@ -12,6 +12,6 @@ CREATE TABLE students (
     phone VARCHAR(255),
     github VARCHAR(255),
     start_date DATE NOT NULL,
-    end_date DATE NOT NULL,
+    end_date DATE,
     class_id INTEGER REFERENCES classes(id)
 );
